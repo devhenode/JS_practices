@@ -18,11 +18,26 @@
     </button>
   
     <div class="btn-space">
-      <button id="btn-1"></button>
+      <button id="btn-1" onclick="copyText()"></button>
       <button id="btn-2"></button>
+    </div>
+
+    <div>
+      <label for="">Select Password length</label>
+      <select id="selector" onchange="selected()">
+        <option value="">6</option>
+        <option value="">8</option>
+        <option value="">10</option>
+        <option value="">12</option>
+        <option value="">14</option>
+        <option value="">16</option>
+        <option value="">18</option>
+      </select>
     </div>
   </div>
 
+  
+  
   
   <script src="index.js"></script>
 </body>

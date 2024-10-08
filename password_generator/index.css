@@ -8,8 +8,9 @@ body {
   display: flex;
   font-family: 'Roboto', sans-serif;
   background-color: white;
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
   color: white;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   font-weight: 800;
@@ -20,7 +21,7 @@ body {
   margin-left: 0px;
   background-color: #1F2937;
   padding: 20px 30px;
-  width: 30%;
+  width: auto;
   height: 50%;
   border-radius: 10px;
 }
@@ -48,8 +49,9 @@ button {
 
 .btn-space {
   display: flex;
-  justify-content: space-around;
-  margin: 10px 20px;
+  /* justify-content:space-between; */
+  gap: 80px;
+  margin: 20px 0;
 }
 
 .btn-space button {
